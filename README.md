@@ -1,3 +1,6 @@
+On august 27th 2025, I have seen a new paper that finally found a convex polyhedron that is non-rupert, the Noperthedron.
+While there is no analytic way to find the set of non-Rupert convex polyhedra, I wanted to find a heuristic/ML way to at least predict approximately.
+
 # Non-Rupert Polyhedra Detector
 
 This project aims to create a dataset of convex polyhedra and develop an algorithm to check if these polyhedra are non-Rupert. Additionally, a machine learning model will be trained to predict the non-Rupert property of polyhedra.
