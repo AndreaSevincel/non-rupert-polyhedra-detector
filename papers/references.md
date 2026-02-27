@@ -14,7 +14,7 @@ Level 2: Foundational Mathematical Papers
 
     "The Truncated Tetrahedron Is Rupert" by Gérard Lavau (The American Mathematical Monthly, 2019). Demonstrates that the truncated tetrahedron possesses the property.
 
-Level 3: Algorithmic & "Local" Approaches (Relevant to Project Step 3)
+Level 3: Algorithmic & "Local" Approaches
 
     "Two sufficient conditions for a polyhedron to be (locally) Rupert" by Evan Scott (arXiv, 2022). Simplifies the problem by analyzing how small arbitrary rotations act on polyhedra to open a geometric passage.
 
