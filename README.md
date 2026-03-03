@@ -3,7 +3,8 @@ While there is no analytic way to find the set of non-Rupert convex polyhedra, I
 
 # Non-Rupert Polyhedra Detector
 
-This project aims to create a dataset of convex polyhedra and develop an algorithm to check if these polyhedra are non-Rupert. Additionally, a machine learning model will be trained to predict the non-Rupert property of polyhedra.
+This project aims to develop an automated, data-driven computational pipeline to discover novel "nopert" (non-Rupert) polyhedra.
+Randomly generating shapes and testing them algorithmically is computationally unfeasible. Therefore, my project aims to automate this discovery using 3D Geometric Deep Learning.
 
 ## Project Structure
 
