@@ -7,28 +7,17 @@ This project aims to create a dataset of convex polyhedra and develop an algorit
 
 ## Project Structure
 
-- **src/**: Contains the main source code for dataset generation, validation, algorithms, models, and visualization.
+- **src/**: This is the first approach I have though of, but perhaps MeshCNN could be the improvement i need
   - **dataset/**: 
-    - `generator.py`: Functions to generate a dataset of convex polyhedra.
-    - `validator.py`: Functions to validate the generated polyhedra dataset.
-    - `polyhedra_loader.py`: Functionality to load and preprocess the polyhedra dataset.
-  - **algorithms/**: 
-    - `rupert_checker.py`: Algorithm to check if a polyhedron is non-Rupert.
-    - `geometric_utils.py`: Utility functions for geometric calculations.
+    - `generator.ipynb`: generated 3000 polyhedra according to our needs (certain sphericity, certain nieuwland). The final .pt file is 37mb so github does not let me share
   - **models/**: 
-    - `train.py`: Code to train the machine learning model.
-    - `predict.py`: Functionality to make predictions using the trained model.
-    - `model_architecture.py`: Defines the architecture of the machine learning model.
+    - `cvae_3.ipynb`: Code to train the machine learning model with the .pt dataset created before. Used CVAE and Pointnet++ as the encoder.
+    - `cvae_weights.pth`: the final weights after 100 epochs
   - **visualization/**: 
     - `plotter.py`: Functions for visualizing the dataset and model predictions.
+  - **evaluate/**:
+    - `final.ipynb`: this notebook must definitively prove if those guesses are topologically valid non-Rupert objects. it loads the trained weights and demands a shape with impossible boundary parameters: a Nieuwland constant of 0.985 and a Sphericity of 0.960.
 
-- **data/**: 
-  - **raw/**: Directory for storing the raw dataset of convex polyhedra.
-  - **processed/**: Directory for storing the processed dataset ready for training.
-
-- **notebooks/**: 
-  - `data_exploration.ipynb`: Jupyter notebook for exploring the dataset.
-  - `model_evaluation.ipynb`: Jupyter notebook for evaluating the trained model.
 
 - **tests/**: 
   - `test_generator.py`: Unit tests for the dataset generator functions.
