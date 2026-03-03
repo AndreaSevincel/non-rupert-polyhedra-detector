@@ -38,16 +38,6 @@ To install the required dependencies, run:
 ```
 pip install -r requirements.txt
 ```
-
-## Usage
-
-1. **Dataset Generation**: Use `generator.py` to create a dataset of convex polyhedra.
-2. **Validation**: Validate the dataset using `validator.py`.
-3. **Non-Rupert Check**: Implement the non-Rupert check using `rupert_checker.py`.
-4. **Model Training**: Train the machine learning model with `train.py`.
-5. **Prediction**: Make predictions using the trained model with `predict.py`.
-6. **Visualization**: Visualize results with `plotter.py`.
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
